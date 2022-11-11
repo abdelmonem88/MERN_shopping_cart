@@ -1,9 +1,12 @@
-import './App.css';
+import Header from './components/layout/Header/Header.js';
+import Footer from './components/layout/Footer/Footer.js';
 
 function App() {
   return (
     <div className='App'>
-      <h1>Shopping Cart</h1>
+      <Header />
+      <main>Main content</main>
+      <Footer />
     </div>
   );
 }
