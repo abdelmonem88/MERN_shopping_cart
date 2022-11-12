@@ -3,7 +3,7 @@ import '../../../css/components/layout/Footer/Footer.css';
 function Footer() {
   return (
     <footer>
-      <h3>Footer</h3>
+      <p>&copy; All rights reserved to Abdelmonem Mohamed</p>
     </footer>
   );
 }

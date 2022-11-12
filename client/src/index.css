@@ -24,7 +24,25 @@ main {
   background-color: #f2f2f2;
 }
 
-footer {
-  grid-area: footer;
-  background-color: #2e35f2;
+.wrapper_content {
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.products {
+  flex: 3;
+  padding: 20px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.filters {
+  flex: 1;
+  padding: 20px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
 }
