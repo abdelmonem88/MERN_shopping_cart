@@ -5,7 +5,7 @@
     "imageUrl": "./assets/images/1.webp",
     "description": "product 1 description",
     "price": 100,
-    "sizes": ["S", "M", "L", "XL"]
+    "sizes": ["S", "M", "L"]
   },
   {
     "id": "2",

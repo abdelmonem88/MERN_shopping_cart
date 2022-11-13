@@ -1,0 +1,40 @@
+.filters_wrapper {
+  .filters_title {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    background-color: #2e35f2;
+    color: #fff;
+    padding: 1rem;
+  }
+
+  .filters_contnet {
+    padding: 1rem;
+
+    .products_count {
+      font-size: 18px;
+      font-weight: 700;
+      margin-bottom: 2rem;
+
+      span {
+        color: #2e35f2;
+      }
+    }
+
+    .filter_subtitle {
+      font-size: 14px;
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+    }
+
+    select {
+      width: 100%;
+      padding: 0.5rem;
+      border: 1px solid #ddd;
+    }
+
+    .filter_by_size {
+      margin-bottom: 0.75rem;
+    }
+  }
+}
